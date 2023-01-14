@@ -33,7 +33,7 @@ const pesquisarCep = async() => { //principal função do programa. Execulta a c
             preencherFormulario(endereco) //utiliza os dados armazenados na constante endereco para chamar a função preencherFormulario (linha 11)
         }
     } else {
-            document.getElementById('endereco').value = "Entrada inválida"; //se a entrada não for satisfizer as condições definidas anteriormente (conter oito caracteres numérios), informa ao usuário que a entrada é inválida
+            document.getElementById('endereco').value = "Entrada inválida"; //se a entrada não satisfizer as condições definidas anteriormente (conter oito caracteres numérios), informa ao usuário que a entrada é inválida
     }
 
 };
